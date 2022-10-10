@@ -755,7 +755,7 @@ jobs:
         #build_alxr_win_x64_debug,
         #build_uwp_app_bundle_debug,
         #build_uwp_app_bundle_release,
-        upload_uwp_cert
+        #upload_uwp_cert
       ]
     steps:
       - uses: eregon/publish-release@v1
