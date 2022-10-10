@@ -745,14 +745,14 @@ jobs:
     needs:
       [
         prepare_release,
-        build_alxr_linux_portable_release,
-        build_alxr_linux_portable_debug,
-        build_alxr_linux_release,
-        build_alxr_linux_debug,
+        #build_alxr_linux_portable_release,
+        #build_alxr_linux_portable_debug,
+        #build_alxr_linux_release,
+        #build_alxr_linux_debug,
         build_alxr_android_release,
         build_alxr_android_debug,
-        build_alxr_win_x64_release,
-        build_alxr_win_x64_debug,
+        #build_alxr_win_x64_release,
+        #build_alxr_win_x64_debug,
         #build_uwp_app_bundle_debug,
         #build_uwp_app_bundle_release,
         upload_uwp_cert
